@@ -1,0 +1,195 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Shoop
+build_property.RootNamespace = Shoop
+build_property.ProjectDir = C:\Users\Progr\OneDrive\Desktop\Shoop-Project\Shoop\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Progr\OneDrive\Desktop\Shoop-Project\Shoop
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Admin/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Admin/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Admin/WelcomPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cV2VsY29tUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/CheakOut/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlYWtPdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/CheakOut/PaymentForThisOrderByCash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlYWtPdXRcUGF5bWVudEZvclRoaXNPcmRlckJ5Q2FzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/HomeContent/AllContactMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRlbnRcQWxsQ29udGFjdE1lc3NhZ2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/HomeContent/AllMesegesAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRlbnRcQWxsTWVzZWdlc0FkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/HomeContent/AllMesseges.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRlbnRcQWxsTWVzc2VnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/HomeContent/AllReview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRlbnRcQWxsUmV2aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/HomeContent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/HomeContent/ManegeGategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRlbnRcTWFuZWdlR2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/HomeContent/OffierAndNews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRlbnRcT2ZmaWVyQW5kTmV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Home/Detials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRpYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/LoginAndRegister/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5BbmRSZWdpc3RlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/LoginAndRegister/NotActiveView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5BbmRSZWdpc3RlclxOb3RBY3RpdmVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Order/OrderDeltislAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJEZWx0aXNsQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Order/OrderItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJJdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Payment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Product/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Product/PrdouctDeltilsForAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcmRvdWN0RGVsdGlsc0ZvckFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Product/WelcomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxXZWxjb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Shared/AllProductForGatgegore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFsbFByb2R1Y3RGb3JHYXRnZWdvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Shared/ConfirmdView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbmZpcm1kVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Shared/registerDone.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHJlZ2lzdGVyRG9uZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Shared/_LayoutForAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRGb3JBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Shared/_LayoutForHomeContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRGb3JIb21lQ29udGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/ShoppingCart/ShoppincCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XFNob3BwaW5jQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/UserInteractions/MyFavorite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckludGVyYWN0aW9uc1xNeUZhdm9yaXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/User/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/User/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/User/Detalis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhbGlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Progr/OneDrive/Desktop/Shoop-Project/Shoop/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-t1llphvfc7

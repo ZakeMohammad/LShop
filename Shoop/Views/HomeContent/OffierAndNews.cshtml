@@ -1,0 +1,469 @@
+﻿@{
+    Layout = "_LayoutForHomeContent";
+}
+
+
+@model List<clsOffers>;
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    *,
+    :before,
+    :after {
+        box-sizing: border-box;
+    }
+
+    .wrapper{
+        background: #424242;
+    }
+
+    .form {
+        width: 320px;
+        margin: 45px auto;
+    }
+
+    h1 {
+        font-size: 3em;
+        font-weight: 300;
+        text-align: center;
+        color: #2196f3;
+    }
+
+    h5 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #c6c6c6;
+    }
+
+    .form hr.sep {
+        background: #2196f3;
+        box-shadow: none;
+        border: none;
+        height: 2px;
+        width: 25%;
+        margin: 0px auto 45px auto;
+    }
+
+    .form .emoji {
+        font-size: 1.2em;
+    }
+
+    .group {
+        position: relative;
+        margin: 45px 0;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    input,
+    textarea {
+        background: none;
+        color: #c6c6c6;
+        font-size: 18px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 320px;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid #c6c6c6;
+    }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+        }
+
+            input:focus ~ label, input:valid ~ label,
+            textarea:focus ~ label,
+            textarea:valid ~ label {
+                top: -14px;
+                font-size: 12px;
+                color: #2196f3;
+            }
+
+            input:focus ~ .bar:before,
+            textarea:focus ~ .bar:before {
+                width: 320px;
+            }
+
+        input[type=password] {
+            letter-spacing: 0.3em;
+        }
+
+    label {
+        color: #c6c6c6;
+        font-size: 16px;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 5px;
+        top: 10px;
+        transition: 300ms ease all;
+    }
+
+    .bar {
+        position: relative;
+        display: block;
+        width: 320px;
+    }
+
+        .bar:before {
+            content: "";
+            height: 2px;
+            width: 0;
+            bottom: 0px;
+            position: absolute;
+            background: #2196f3;
+            transition: 300ms ease all;
+            left: 0%;
+        }
+
+    .btn {
+        background: #fff;
+        color: #959595;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-decoration: none;
+        outline: none;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+        .btn:hover {
+            color: #8b8b8b;
+            box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+        }
+
+        .btn.btn-submit {
+            background: #2196f3;
+            color: #bce0fb;
+        }
+
+            .btn.btn-submit:hover {
+                background: #0d8aee;
+                color: #deeffd;
+            }
+
+        .btn.btn-cancel {
+            background: #eee;
+        }
+
+            .btn.btn-cancel:hover {
+                background: #e1e1e1;
+                color: #8b8b8b;
+            }
+
+    .btn-box {
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    a:link {
+        text-decoration: none;
+        outline: none;
+        transition: all 0.25s;
+    }
+
+        a:visited,
+        a:link:hover,
+        a:visited:hover {
+            text-decoration: none;
+        }
+
+    body {
+        background: #424242;
+        color: #444;
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        line-height: normal;
+    }
+
+    .container {
+        
+        max-width: 520px;
+        margin: 4% auto;
+        padding: 20px;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+        .container h2 {
+          
+            position: relative;
+            overflow: hidden;
+            margin: 0 0 20px 0;
+            font-size: 0.8em;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 700;
+            vertical-align: middle;
+            padding: 0 12px 20px 12px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        }
+
+
+    body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        line-height: normal;
+    }
+
+    .container {
+        max-width: 768px;
+        margin: 4% auto;
+        padding: 40px;
+        
+        color: #222;
+        font-size: 16px;
+        line-height: 1.6;
+        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    }
+
+        .container h1,
+        .container h2 {
+            display: block;
+            margin-bottom: 40px;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #222;
+        }
+
+        .container h2 {
+            margin-top: 30px;
+        }
+    /* Table Post Responsive */
+    table,
+    caption,
+    tbody {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    .post-body table td,
+    .post-body table caption {
+        border: 1px solid #e9e9e9;
+        padding: 7px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .post-body table tr th {
+        border: 1px solid #6f7785;
+        color: #fff;
+        padding: 8px 10px;
+        text-align: left;
+        vertical-align: top;
+        font-size: 16px;
+    }
+
+    .post-body table th {
+        background: #747d8c;
+    }
+
+    .post-body table tr th:hover {
+        background: #57606f;
+    }
+
+    .post-body table.tr-caption-container {
+        border: 1px solid #f6f8f9;
+    }
+
+    .post-body table caption {
+        border: none;
+        font-style: italic;
+    }
+
+    .post-body td,
+    .post-body th {
+        color: #57606f;
+        vertical-align: top;
+        text-align: left;
+        font-size: 15px;
+        padding: 3px 5px;
+    }
+
+    .post-body table tr:nth-child(even) > td {
+        background-color: #ecf0f1;
+    }
+
+    .post-body table tr:nth-child(odd) > td {
+        background-color: #f6f8f9;
+    }
+
+    .post-body td a {
+        color: #768187;
+        padding: 0 6px;
+        font-size: 85%;
+        float: right;
+        display: inline-block;
+        border-radius: 3px;
+    }
+
+        .post-body td a:hover {
+            color: #7f9bdf;
+            border-color: #adbce0;
+        }
+
+        .post-body td a[target="_blank"]:after {
+            margin-left: 5px;
+        }
+
+    .post-body table.tr-caption-container td {
+        border: none;
+        padding: 8px;
+    }
+
+    .post-body table.tr-caption-container,
+    .post-body table.tr-caption-container img,
+    .post-body img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .post-body td.tr-caption {
+        color: #666;
+        font-size: 80%;
+        padding: 0px 8px 8px !important;
+    }
+
+    table {
+        max-width: 100%;
+        width: 100%;
+        margin: 1.5em auto;
+    }
+
+        table.section-columns td.first.columns-cell {
+            border-left: none;
+        }
+
+        table.section-columns {
+            border: none;
+            table-layout: fixed;
+            width: 100%;
+            position: relative;
+        }
+
+        table.columns-2 td.columns-cell {
+            width: 50%;
+        }
+
+        table.columns-3 td.columns-cell {
+            width: 33.33%;
+        }
+
+        table.columns-4 td.columns-cell {
+            width: 25%;
+        }
+
+        table.section-columns td.columns-cell {
+            vertical-align: top;
+        }
+
+        table.tr-caption-container {
+            padding: 4px;
+            margin-bottom: 0.5em;
+        }
+
+    td.tr-caption {
+        font-size: 80%;
+    }
+
+    .post-body table tr:hover td {
+        background: #b0b1b4;
+        color: #ffffff;
+        border-top: 1px solid #22262e;
+    }
+
+    table tr:nth-child(odd):hover td {
+        background: #b0b1b4;
+    }
+
+</style>
+
+
+<div class="wrapper">
+
+    <h1 style="color: #2196f3;">Offers puplish</h1>
+    <div class="form">
+        @using (Html.BeginForm("CreateOffeir", "HomeContent", FormMethod.Post, new { @class = "needs-validation", novalidate = "true", enctype = "multipart/form-data" }))
+                 {
+        <hr class="sep" />
+        <div class="group">
+            <input name="Name" type="text" required="required" /><span class="highlight"></span><span class="bar"></span>
+            <label>Name</label>
+        </div>
+        <div class="group">
+           <input type="file" required="required" name="imagefile" />
+        </div>
+        <div class="group">
+                <input name="Detils" type="text" required="required" /><span class="highlight"></span><span class="bar"></span>
+                <label>Detils</label>
+        </div>
+        <div class="group">
+                <input name="OfferRatio" type="number" min="0" max="100" required="required" /><span class="highlight"></span><span class="bar"></span>
+            <label>Ratio</label>
+        </div>
+        <div class="group">
+                <input name="GategoreID" type="number" min="1" max="4" required="required" /><span class="highlight"></span><span class="bar"></span>
+            <label>Gategore ID</label>
+        </div>
+
+
+        <div class="btn-box">
+            <button class="btn btn-submit" type="submit">submit</button>
+            <a class="btn" style="cursor: pointer; padding: 10px;" asp-action="Index" asp-controller="HomeContent">Return</a>
+            <h5>Come again and make offers<span class="emoji">&#x1F609;</span></h5>
+        </div>
+        }
+    </div>
+ 
+
+    <div class="container">
+        <h2 style="color: #2196f3;">All Offers</h2>
+        <div class="post-body">
+            <table cellpadding="0" cellspacing="0" style="text-align: left;">
+                <tbody>
+                    @{
+                        foreach(var item in Model)
+                        {
+                            <tr style="text-align:center"><th>@item.ID</th>
+                                <th>@item.OfferRatio% @item.Detils </th>
+                                <th><a asp-action="DeleteOffire" asp-controller="HomeContent" asp-route-id="@item.ID" style="color:red; width:fit-content"><i class="fa-solid fa-trash"></i></a> </th>
+                            </tr>
+                        }
+                    }                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $(".alert").click(function () {
+            $(this).fadeOut();
+        });
+    });
+</script>     

@@ -1,0 +1,1449 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Shoop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Shoop.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\AdminImages\\4.jfif",
+      "PackagePath": "staticwebassets\\UplodeImages\\AdminImages\\4.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\AdminImages\\ImageNull.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\AdminImages\\ImageNull.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\AdminImages\\Ronaldo.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\AdminImages\\Ronaldo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\GategoryImages\\1b0002d4-faf5-4361-89d5-c55a009d2870_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\GategoryImages\\1b0002d4-faf5-4361-89d5-c55a009d2870_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\GategoryImages\\ImageNull.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\GategoryImages\\ImageNull.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\GategoryImages\\chos.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\GategoryImages\\chos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\GategoryImages\\coo.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\GategoryImages\\coo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\GategoryImages\\cooooll.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\GategoryImages\\cooooll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\OfferImages\\05_33000170018_5.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\OfferImages\\05_33000170018_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\OfferImages\\21_59101241_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\OfferImages\\21_59101241_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\OfferImages\\ImageNull.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\OfferImages\\ImageNull.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\OfferImages\\kkf.jfif",
+      "PackagePath": "staticwebassets\\UplodeImages\\OfferImages\\kkf.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\01_33000100008_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\01_33000100008_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\01_33000170018_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\01_33000170018_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\01_59101241_2.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\01_59101241_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\03_33000100008_2.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\03_33000100008_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\03_33000170018_2.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\03_33000170018_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\03_59101241_3.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\03_59101241_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\05_33000170018_5.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\05_33000170018_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\0a42a650-ae2b-4b1a-8aa0-1229f5e292cd.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\0a42a650-ae2b-4b1a-8aa0-1229f5e292cd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\1a0d5990-b210-490f-bb1f-e56de8a25b18_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\1a0d5990-b210-490f-bb1f-e56de8a25b18_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\1b0002d4-faf5-4361-89d5-c55a009d2870_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\1b0002d4-faf5-4361-89d5-c55a009d2870_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\1b3c4b1a-4543-46ba-b8c6-77caac04ee9f_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\1b3c4b1a-4543-46ba-b8c6-77caac04ee9f_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\1e476b13-fef1-4045-b725-ceb9b7fc85f7.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\1e476b13-fef1-4045-b725-ceb9b7fc85f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\1ec01192-d9ae-40e5-a416-a1c4b7377bde.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\1ec01192-d9ae-40e5-a416-a1c4b7377bde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\1ec4a9f1-552a-433b-a47f-14fee6a7a45e_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\1ec4a9f1-552a-433b-a47f-14fee6a7a45e_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\21_59101241_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\21_59101241_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\24079d66-506b-494d-bbc3-a40702ff0f59_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\24079d66-506b-494d-bbc3-a40702ff0f59_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\278fd6ae-17e5-43ae-9cff-b84230070412.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\278fd6ae-17e5-43ae-9cff-b84230070412.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\28b0534b-9808-482b-9627-c6605df9effe.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\28b0534b-9808-482b-9627-c6605df9effe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\292ee491-eea3-486b-a60f-b8dad1506526_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\292ee491-eea3-486b-a60f-b8dad1506526_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\2af3b999-9f69-45f8-b059-e21dcf499296.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\2af3b999-9f69-45f8-b059-e21dcf499296.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\31362b0d-dd24-4c3b-9f01-37c40259a5d1_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\31362b0d-dd24-4c3b-9f01-37c40259a5d1_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\3f2b6b6a-8ea0-4c16-af8e-841e213ef8b1_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\3f2b6b6a-8ea0-4c16-af8e-841e213ef8b1_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\4202fff1-8eed-43c6-9f21-c23ebd863c31_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\4202fff1-8eed-43c6-9f21-c23ebd863c31_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\499fb7e5-b30b-465e-8950-8f3b1f8758cd_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\499fb7e5-b30b-465e-8950-8f3b1f8758cd_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\49f2a9d2-61fb-4511-aa71-d20ac75efa3a_3.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\49f2a9d2-61fb-4511-aa71-d20ac75efa3a_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\4e5e446c-d498-4ad4-8424-b9d45a1ce5df_2.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\4e5e446c-d498-4ad4-8424-b9d45a1ce5df_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\4ec48d22-43c7-44f1-a08f-3358c03d39d5_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\4ec48d22-43c7-44f1-a08f-3358c03d39d5_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\54c5c5ef-9872-4a8e-8cc8-5e1f1920a72e_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\54c5c5ef-9872-4a8e-8cc8-5e1f1920a72e_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\54e902e4-9906-4709-ab38-11a80d9eaca2.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\54e902e4-9906-4709-ab38-11a80d9eaca2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\5b6289bb-6f13-47e4-a453-137651e90336.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\5b6289bb-6f13-47e4-a453-137651e90336.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\60204e6e-f851-4e32-a22c-4e10d7e039ae.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\60204e6e-f851-4e32-a22c-4e10d7e039ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\65e20b90-4663-47e2-bf73-c2d39141d60b.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\65e20b90-4663-47e2-bf73-c2d39141d60b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\701e1fc5-5105-4935-b06c-246f93902751_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\701e1fc5-5105-4935-b06c-246f93902751_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\804f6e16-090a-4853-a5ff-560e961e944f.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\804f6e16-090a-4853-a5ff-560e961e944f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\837080ff-2654-4734-ad98-df4cfcdd12b5_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\837080ff-2654-4734-ad98-df4cfcdd12b5_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\87cde296-8768-42f5-ac71-29836913b114.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\87cde296-8768-42f5-ac71-29836913b114.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\8a48e7f6-3a9c-491c-9442-e5897e313f68_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\8a48e7f6-3a9c-491c-9442-e5897e313f68_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\91250b28-a1a1-46dd-8cd5-8f63d0c86af6_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\91250b28-a1a1-46dd-8cd5-8f63d0c86af6_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\95c7cce5-95da-4064-b5bb-2a051c9f4278.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\95c7cce5-95da-4064-b5bb-2a051c9f4278.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\9b3838b8-9e9e-4f08-a1a5-18935c6a34a6_3.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\9b3838b8-9e9e-4f08-a1a5-18935c6a34a6_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\ImageNull.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\ImageNull.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\UNLA0128F_1_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\UNLA0128F_1_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\UNLA0129F_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\UNLA0129F_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\White-Ford-F250-Fuel-Wheels-Dreamworks-Motorsports-3.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\White-Ford-F250-Fuel-Wheels-Dreamworks-Motorsports-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\a4c40f03-a5ca-4055-801e-b48312e4eedf.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\a4c40f03-a5ca-4055-801e-b48312e4eedf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\b51747d3-6f7b-4a75-84ee-0672e9b0185b_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\b51747d3-6f7b-4a75-84ee-0672e9b0185b_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\b8a0e079-b561-45a8-99f1-77651319ad35.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\b8a0e079-b561-45a8-99f1-77651319ad35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\bc3b1fcc-1317-4337-ad2a-54a1cd0b2e56_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\bc3b1fcc-1317-4337-ad2a-54a1cd0b2e56_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\bd8c6caf-21bb-4e71-af1d-6cb3ea79af7e.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\bd8c6caf-21bb-4e71-af1d-6cb3ea79af7e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\c394a437-580c-40a0-8ecd-e380dfdcb54e.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\c394a437-580c-40a0-8ecd-e380dfdcb54e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\c4461abc-cbba-44bf-b3ea-fadd11030ab2_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\c4461abc-cbba-44bf-b3ea-fadd11030ab2_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\cat-6.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\cat-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\cd1349e2-9bc8-40aa-9f9d-c0c8ce0787f5_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\cd1349e2-9bc8-40aa-9f9d-c0c8ce0787f5_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\dc0d5b14-9bec-4b2b-ae41-e6236c545666_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\dc0d5b14-9bec-4b2b-ae41-e6236c545666_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\download (1).jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\download (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\download (2).jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\download (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\download.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\e33b2ef20ed1c2a59b580d50722ed945.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\e33b2ef20ed1c2a59b580d50722ed945.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\eb6c3e6a-5eeb-4ee9-9940-ba39630f2d10_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\eb6c3e6a-5eeb-4ee9-9940-ba39630f2d10_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\eb924fe0-6442-4740-a089-591b96d6b741_1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\eb924fe0-6442-4740-a089-591b96d6b741_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\f3c198f4-367e-4e44-b334-cc3b5e65bd84.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\f3c198f4-367e-4e44-b334-cc3b5e65bd84.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\f6d42920-868d-403c-9407-5af2e3dcdf04.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\f6d42920-868d-403c-9407-5af2e3dcdf04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\fa63614d-836b-4284-b19f-6bc5392944a1 (1).jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\fa63614d-836b-4284-b19f-6bc5392944a1 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\fa63614d-836b-4284-b19f-6bc5392944a1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\fa63614d-836b-4284-b19f-6bc5392944a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\karate (7).png",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\karate (7).png"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\offer-1.png",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\offer-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\offer-2.png",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\offer-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\product-2.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\product-3.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\product-6.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\product-7.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\vendor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\vendor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\vendor-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\vendor-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\ProductImages\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\ProductImages\\vendor-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\UsersImages\\1.jfif",
+      "PackagePath": "staticwebassets\\UplodeImages\\UsersImages\\1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\UsersImages\\4b60683002b9fd72d311b381e6b31e19.png",
+      "PackagePath": "staticwebassets\\UplodeImages\\UsersImages\\4b60683002b9fd72d311b381e6b31e19.png"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\UsersImages\\4e5e446c-d498-4ad4-8424-b9d45a1ce5df_2.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\UsersImages\\4e5e446c-d498-4ad4-8424-b9d45a1ce5df_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\UsersImages\\9b3838b8-9e9e-4f08-a1a5-18935c6a34a6_3.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\UsersImages\\9b3838b8-9e9e-4f08-a1a5-18935c6a34a6_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\UsersImages\\ImageNull.jpg",
+      "PackagePath": "staticwebassets\\UplodeImages\\UsersImages\\ImageNull.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\UplodeImages\\UsersImages\\Person3.jfif",
+      "PackagePath": "staticwebassets\\UplodeImages\\UsersImages\\Person3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\AdminFiles\\MainLayout.css",
+      "PackagePath": "staticwebassets\\css\\AdminFiles\\MainLayout.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\AdminFiles\\Slider.css",
+      "PackagePath": "staticwebassets\\css\\AdminFiles\\Slider.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\Allerts.css",
+      "PackagePath": "staticwebassets\\css\\Allerts.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\AnotherUser.css",
+      "PackagePath": "staticwebassets\\css\\AnotherUser.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\ChangePassword.css",
+      "PackagePath": "staticwebassets\\css\\ChangePassword.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\Commints.css",
+      "PackagePath": "staticwebassets\\css\\Commints.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\LoginAndRegister.css",
+      "PackagePath": "staticwebassets\\css\\LoginAndRegister.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\OrderDetilsAdmin.css",
+      "PackagePath": "staticwebassets\\css\\OrderDetilsAdmin.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\PaymentStyle.css",
+      "PackagePath": "staticwebassets\\css\\PaymentStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\RegisterDone.css",
+      "PackagePath": "staticwebassets\\css\\RegisterDone.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\UserInfoAndUpdate.css",
+      "PackagePath": "staticwebassets\\css\\UserInfoAndUpdate.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\notactive.css",
+      "PackagePath": "staticwebassets\\css\\notactive.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\productdetlisAdmin.css",
+      "PackagePath": "staticwebassets\\css\\productdetlisAdmin.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\mail\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\mail\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Progr\\OneDrive\\Desktop\\Shoop-Project\\Shoop\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Shoop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Shoop.props",
+      "PackagePath": "build\\Shoop.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Shoop.props",
+      "PackagePath": "buildMultiTargeting\\Shoop.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Shoop.props",
+      "PackagePath": "buildTransitive\\Shoop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

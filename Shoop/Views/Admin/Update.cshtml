@@ -1,0 +1,84 @@
+﻿@model clsAdmin;
+
+
+<style>
+    * {
+        font-size: medium;
+        font-style: oblique;
+    }
+</style>
+
+
+
+<div class="container">
+
+
+    @using (Html.BeginForm("Update", "Admin", FormMethod.Post, new { @class = "needs-validation", novalidate = "true", enctype = "multipart/form-data" }))
+    {
+          <input type="hidden" asp-for="ID" />
+        <input type="hidden" asp-for="Password" />
+     
+        <section>
+            <br>
+            <div class="container justify-content-center">
+                <div class="row">
+                    <div class="col-lg-8" style="font-size: larger;
+                border: 5px solid black;
+                border-radius: 20px;
+                box-shadow: 10px 0px 5px black">
+                        <form method="post">
+                            <h3 style="font-size: larger;
+                        text-align: center;
+                        margin: 15px;
+                        border: 5px solid black;
+                        border-radius: 20px;
+                        box-shadow: 10px 0px 5px  black;">
+                               Update Admin <i class="bi bi-emoji-smile-fill"></i>
+                            </h3>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label"></label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                       asp-for="Name" placeholder="Name">
+                            </div>
+                            <div class=" mb-3">
+                                <label for="exampleFormControlInput1" class="form-label"></label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" asp-for="Email">
+                            </div>
+                        
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label"></label>
+                                <input type="file" class="form-control" id="exampleFormControlInput1"
+                                       placeholder="Chosse Image" name="imagefile">
+                            </div>
+                          
+                            <div class="mb-3">
+                                <center>
+                                    <button type="submit" class="btn btn-dark" style="margin: 15px;">Update</button>
+                                </center>
+                            </div>
+                            <div class="mb-3">
+                                <center>
+                                    <a class="btn btn-outline-secondary" asp-controller="Admin" asp-action="Index">Show All</a>
+                                </center>
+                            </div>
+                           
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+
+    }
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $(".alert").click(function () {
+            $(this).fadeOut();
+        });
+    });
+</script>      

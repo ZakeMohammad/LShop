@@ -1,0 +1,53 @@
+﻿
+@{
+    Layout = null;
+}
+
+@model Dictionary<clsOrder, clsUser>;
+
+@{
+    clsOrder Order=null;
+    clsUser User=null;
+    foreach(var item in Model)
+    {
+        Order = (clsOrder)item.Key;
+        User = (clsUser)item.Value;
+    }
+
+}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="~/css/orderdetilsadmin.css" rel="stylesheet" />
+
+<div class="l-col-right ticket-wrap" aria-label="">
+    <div class="ticket" aria-hidden="true">
+        <div class="ticket__header">
+            <div class="ticket__co">
+
+                <span class="ticket__co-name">Order Detiles</span>
+                <span class="u-upper ticket__co-subname"></span>
+            </div>
+        </div>
+        <div class="ticket__body">
+            <p class="ticket__route">@User.Name</p>
+            <p class="ticket__description">Order Status: @Order.Status</p>
+            <div class="ticket__timing">
+                <p>
+                    <span class="u-upper ticket__small-label">Date</span>
+                    <span class="ticket__detail">@Order.OrderDate.ToShortDateString()</span>
+                </p>
+                <p>
+                    <span class="u-upper ticket__small-label">Time</span>
+                    <span class="ticket__detail">@Order.OrderDate.ToShortTimeString()</span>
+                </p>
+                <p>
+                    <span class="u-upper ticket__small-label">Amount</span>
+                    <span class="ticket__detail">@Order.TotalAmount</span>
+                </p>
+            </div>
+
+            <p class="ticket__fine-print"> <a asp-action="ShowOrderDeltislAdmin" asp-controller="Order" asp-route-id="@Order.ID" style="text-decoration:none; color:rgb(102, 102, 102);">Show all item for this ordere</a></p>
+            <p class="u-upper ticket__admit"><a asp-action="Index" asp-controller="Admin" style="text-decoration:none; color:rgb(102, 102, 102);">Return</a></p>
+
+        </div>
+    </div>
+</div>

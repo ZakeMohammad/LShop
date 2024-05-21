@@ -1,0 +1,135 @@
+﻿@model Shoop.ViewModel.CheakOutViewModel;
+
+
+
+<style>
+	
+.container-card-orders {
+  justify-content: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  justify-content: center;
+  padding: 5px;
+  margin: auto;
+}
+
+.delivery-order-card {
+  background-color: rgba(200, 200, 200, 0.02);
+  margin: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(73, 73, 73, 0.4);
+  border-radius: 12px;
+  padding: 1.3em;
+  box-shadow: 10px -2px 66px 4px rgba(0, 0, 0, 0.24);
+  font-family: "Lato", sans-serif;
+}
+.delivery-order-card .order-primary-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid rgba(73, 73, 73, 0.12);
+  font-size: 17px;
+}
+.delivery-order-card .order-info {
+  display: flex;
+  flex-direction: column;
+}
+.delivery-order-card .order-info .order-info-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 0.5em;
+}
+.delivery-order-card .order-footer {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid rgba(73, 73, 73, 0.12);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.delivery-order-card .order-footer .card-order-btn {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  position: relative;
+  padding: 0.8em;
+  border-radius: 12px;
+  color: #fff;
+  background-color: #525f7f;
+  border: 1px solid #525f7f;
+  cursor: pointer;
+  box-shadow: 10px -2px 66px 4px rgba(0, 0, 0, 0.24);
+}
+.btn {
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.btn:hover {
+  text-decoration-line: underline;
+}
+.btn-details{
+  background-color:#1dacd6
+
+}
+.btn-navigate{
+  background-color:#ff8c00
+}
+.btn-delete{
+  background-color:  #cf1020
+}
+</style>
+
+
+<div class="text-center mb-4">
+	<h2 class="section-title px-5"><span class="px-2">My orders</span></h2>
+</div>
+
+<div class="delivery-order-card">
+
+	@{
+		for(int i = 0; i < Model.OrdersData.Count; i++)
+		{
+			
+			
+		    	var order = Model.OrdersData[i];
+			
+			   <div class="order-primary-info">
+				<span><strong>Order:</strong> #@order[0].OrderID</span>
+				<span><strong>Data:</strong> @order[0].OrderDate</span>
+			</div>
+		
+
+		        <div class="order-info">
+				@{
+					foreach (var item in order)
+					{
+						<div class="order-info-row">
+							<strong>@item.Name</strong>
+							<strong>@item.Quantity</strong>
+							$ @item.TotalPrice
+						</div>
+					}
+				}
+		    	</div>
+
+		     	<div class="order-footer" style="margin-bottom:30px">
+				<a asp-action="PayByCash" asp-controller="CheakOut" asp-route-OrderID="@order[0].OrderID" class="btn btn-details">Shipping & Pay</a>
+				<a asp-action="DeleteOrder" asp-controller="CheakOut" asp-route-OrderID="@order[0].OrderID" class="btn btn-delete">Delete</a>
+		    	</div>
+			
+			
+		}
+	}	
+
+</div>

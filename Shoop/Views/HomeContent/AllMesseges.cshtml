@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="~/css/slidermain.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+@model List<dynamic>;
+
+<div class="swiper mySwiper">
+	<div class="swiper-wrapper">
+		@{
+			foreach(var item in Model)
+			{
+				<div class="swiper-slide">
+
+					<div class="name">@item.Name<br><a asp-action="Index" asp-controller="Home" >Return</a>	</div>
+					<div class="desc" style="margin-top:50px"> @item.Message</div>
+
+				</div>
+			}
+		}
+	</div>
+</div>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+	var swiper = new Swiper(".mySwiper", {
+		effect: "cards",
+		grabCursor: true,
+	});
+</script>

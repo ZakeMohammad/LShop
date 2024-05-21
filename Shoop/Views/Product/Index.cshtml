@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "All Products";
+}
+
+@model List<clsProduct>;
+
+ <div class="l-main">
+    <div class="l-main-content l-main-content--full-height Grid Grid--gutters Grid--flexCells">
+        <div class="Grid-cell">
+            <div class="c-panel">
+                <div class="c-panel__heading u-flex">
+                    <div class="l-tool-group">
+                        <a asp-action="Create" asp-controller="Product" class="c-button c-button--primary c-button--panel-head" style="cursor:pointer; text-decoration:none;">Create New Product</a>
+                    </div>
+                    <div class="l-tool-group u-grow u-justify-end">                      
+                        <form class="l-search-group" asp-action="SerachByName" asp-controller="Product">
+                            @{
+                                if (Model[0] == null)
+                                {
+                                    <input hidden name="GategoryID" value="1" />
+                                }
+                                if (Model[0].CategoryID == 1)
+                                {
+                                    <input hidden name="GategoryID" value="1" />
+                                }
+                                if (Model[0].CategoryID == 2)
+                                {
+                                    <input hidden name="GategoryID" value="2" />
+                                }
+                                 if (Model[0].CategoryID == 3)
+                                {
+                                    <input hidden name="GategoryID" value="3" />
+                                }
+
+                                if (Model[0].CategoryID == 4)
+                                {
+                                    <input hidden name="GategoryID" value="4" />
+                                }
+
+                            }
+                           
+                            <input class="c-search" type="text" placeholder="Search" name="Name" />
+                            <button type="submit" class="c-button c-button--panel-head c-button--search c-button--icon"><i class="material-icons">Search</i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="c-panel__body">
+                    <div class="l-scroll-section js-sticky-head">
+                        <table class="c-table">
+                            <thead>
+                                <tr>
+                                    <th class="c-table__header c-table__header-cell--5">ID</th>
+                                    <th class="c-table__header c-table__header-cell--20">Name</th>
+                                    <th class="c-table__header c-table__header-cell--8">Price</th>
+                                    <th class="c-table__header c-table__header-cell--5">Quantity</th>
+                                    <th class="c-table__header">Rating</th>
+                                    <th class="c-table__header c-table__header-cell--11">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                foreach(var item in Model)
+                                {
+                                    <tr class="c-table__row">
+                                        <td class="c-table__cell">@item.ID</td>
+                                            <td class="c-table__cell">@item.Name</td>
+                                            <td class="c-table__cell c-table-cell--letter-wrap">@item.Price</td>
+                                            <td class="c-table__cell">@item.Quantity</td>
+                                            <td class="c-table__cell">@item.Rating</td>
+                                            <td class="c-table__cell " style="font-size: 1rem;"><a asp-action="Detlis" asp-controller="Product" asp-route-id="@item.ID"><i class="fa-solid fa-circle-info" style="margin-left:10px;"></i></a> <a asp-action="Update" asp-controller="Product" asp-route-id="@item.ID"><i class="fa-solid fa-pen-to-square" style="margin-left:10px;"></i></a>   <a asp-action="ConfirmThisAction" asp-controller="Product" asp-route-id="@item.ID"><i class="fa-solid fa-trash" style="margin-left:10px;"></i></a> </td>
+                                    </tr>
+                                }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+  
+
+

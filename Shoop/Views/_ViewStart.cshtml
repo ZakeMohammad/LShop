@@ -1,0 +1,14 @@
+﻿@{
+    if (ApplicationUser.CurrentAdmin!=null)
+    {
+        Layout = "_LayoutForAdmin";
+    }
+    if (ApplicationUser.CurrentUser != null)
+    {
+        Layout = "_Layout";
+    }
+    if(ApplicationUser.CurrentUser==null && ApplicationUser.CurrentAdmin == null)
+    {
+        Layout = "_Layout";
+    }
+}

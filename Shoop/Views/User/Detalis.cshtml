@@ -1,0 +1,154 @@
+﻿@model clsUser;
+<link href="~/css/allerts.css" rel="stylesheet" />
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="col-sm-12">
+        <div class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show">
+
+            <i class="start-icon far fa-check-circle faa-tada animated"></i>
+            <strong class="font__weight-semibold">Well done!</strong> @TempData["SuccessMessage"]
+        </div>
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="col-sm-12">
+        <div class="alert fade alert-simple alert-danger alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+
+            <i class="start-icon far fa-times-circle faa-pulse animated"></i>
+            <strong class="font__weight-semibold">Oh snap!</strong> @TempData["ErrorMessage"]
+        </div>
+    </div>
+}
+<style>
+    * {
+        font-size: medium;
+        font-style: oblique;
+    }
+</style>
+
+
+@{
+    Layout = null;
+}
+<link href="~/css/userinfoandupdate.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div id='settings' ontouchstart>
+    <input checked class='nav' name='nav' type='radio'>
+    <span class='nav'>Profile</span>
+    <input class='nav' name='nav' type='radio'>
+    <span class='nav'>  <a>Account</a></span>
+    <input class='nav' name='nav' type='radio'>
+    <span class='nav'>Privacy</span>
+    <input class='nav' name='nav' type='radio'>
+    <span class='nav'>Advanced</span>
+    <main class='content'>
+        <section id='profile' style="overflow: scroll;">
+            <div>
+                <ul>
+                    <li class='large padding avatar'>
+                        <span style="background-image: url('@Model.ImageURL');"></span>
+                    </li>
+                    <li>
+                        <fieldset class='material'>
+                            <div>
+                                <input required type='text' value='@Model.Name' readonly>
+                                <label>Name</label>
+                                <hr>
+                            </div>
+                        </fieldset>
+                    </li>
+                    <li>
+                        <fieldset class='material'>
+                            <div>
+                                <input required type='number' value='@Model.Purchasesnumber' readonly>
+                                <label>Purchases number</label>
+                                <hr>
+                            </div>
+                        </fieldset>
+                    </li>
+                    <li style="width: 100%;">
+                        <fieldset class='material'>
+                            <div>
+                                <input required type='text' value='@Model.Email' readonly>
+                                <label>Email</label>
+                                <hr>
+                            </div>
+                        </fieldset>
+                    </li>
+
+                    <li class='large padding'>
+                        <fieldset class='material-button center' style="border: 0;">
+                            <button class="save"><a style="text-decoration:none; color:white" asp-action="Index" asp-controller="Home">Return </a></button>
+                            <button class="save" style="margin-top:10px;"><a style="text-decoration:none; color:white;" asp-action="ChangePassword" asp-controller="User">Change Password </a></button>
+                        </fieldset>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id='account' style="overflow: scroll;">
+          @using (Html.BeginForm("Update", "User", FormMethod.Post, new { @class = "needs-validation", novalidate = "true", enctype = "multipart/form-data" }))
+            {
+                  <input type="hidden" asp-for="ID" />
+                <input type="hidden" asp-for="Password" />
+                <input type="hidden" asp-for="Purchasesnumber" />
+                <ul>
+                    <li>
+                        <fieldset class='material'>
+                            <div>
+                                <input required type='email' asp-for="Email">
+                                <label>Email</label>
+                                <hr>
+                            </div>
+                        </fieldset>
+                    </li>
+                    <li>
+                        <fieldset class='material'>
+                            <div>
+                                <input required type='text' asp-for="Name">
+                                <label>Name</label>
+                                <hr>
+                            </div>
+                        </fieldset>
+                    </li>
+                    <li class="forimage">
+                        <fieldset class='material'>
+                            <div>
+                                <input required type='file' name="imagefile">
+                                <label>Image</label>
+                                <hr>
+                            </div>
+                        </fieldset>
+                    </li>
+
+                    <li class='large padding'>
+                        <fieldset class='material-button center' style="border: 0;">
+                            <div>
+                                <input class='save' type='submit' value='Save'>
+                            </div>
+
+                        </fieldset>
+                    </li>
+                </ul>
+           }
+
+        </section>
+        <section class='upcoming' id='privacy'>
+            <h1>Coming&nbsp;soon!</h1>
+        </section>
+        <section class='upcoming' id='advanced'>
+            <h1>Coming&nbsp;soon!</h1>
+        </section>
+    </main>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $(".alert").click(function () {
+            $(this).fadeOut();
+        });
+    });
+</script>     

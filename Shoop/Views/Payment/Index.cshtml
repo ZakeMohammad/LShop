@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "All Payments";
+}
+
+
+@model List<dynamic>;
+
+<div class="l-main">
+    <div class="l-main-content l-main-content--full-height Grid Grid--gutters Grid--flexCells">
+        <div class="Grid-cell">
+            <div class="c-panel">
+                <div class="c-panel__heading u-flex">
+                    <div class="l-tool-group">
+                        <a asp-action="Index" asp-controller="Admin" class="c-button c-button--primary c-button--panel-head" style="cursor:pointer; text-decoration:none;">Go Back</a>
+                    </div>
+                    <div class="l-tool-group u-grow u-justify-end">
+                        <form class="l-search-group" asp-action="SerachBy" asp-controller="Payment">
+                            <input class="c-search" name="ID" type="number" placeholder="Search by ID" />
+                            <button type="submit" class="c-button c-button--panel-head c-button--search c-button--icon"><i class="material-icons">Search</i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="c-panel__body">
+                    <div class="l-scroll-section js-sticky-head">
+                        <table class="c-table">
+                            <thead>
+                                <tr>
+                                    <th class="c-table__header ">ID</th>
+                                    <th class="c-table__header ">Name</th>
+                                    <th class="c-table__header ">Order Date</th>
+                                    <th class="c-table__header ">Payment Date</th>
+                                    <th class="c-table__header ">Payment Method</th>
+                                    <th class="c-table__header ">City</th>
+                                     <th class="c-table__header ">Address</th>
+                                    <th class="c-table__header ">Phone Number</th>
+                                    <th class="c-table__header ">Email</th>
+                                    <th class="c-table__header ">Order Status</th>
+                                    <th class="c-table__header ">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    foreach (var item in Model)
+                                    {
+
+                                        <tr class="c-table__row">
+                                          
+                                            <td class="c-table__cell">@item.ID</td>
+                                            <td class="c-table__cell">@item.Name</td>
+                                            <td class="c-table__cell">@item.OrderDate</td>
+                                            <td class="c-table__cell">@item.Date</td>
+                                            <td class="c-table__cell">@item.PaymentName</td>
+                                            <td class="c-table__cell">@item.CityName</td>
+                                            <td class="c-table__cell">@item.ShippingAdrees</td>
+                                            <td class="c-table__cell">@item.PhoneNumber</td>
+                                            <td class="c-table__cell">@item.Email</td>
+                                            <td class="c-table__cell">@item.Status</td>
+                                            <td class="c-table__cell " style="font-size: 1rem;"> <a asp-action="ConfirmThisAction" asp-controller="Payment" asp-route-id="@item.ID" asp-route-actionName="Delete"><i class="fa-solid fa-trash" style="margin-left:10px;"></i></a> </td>
+
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $(".alert").click(function () {
+            $(this).fadeOut();
+        });
+    });
+</script>
+
+

@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "All Admin";
+}
+
+
+
+<div class="l-main">
+    <div class="l-main-content l-main-content--full-height Grid Grid--gutters Grid--flexCells">
+        <div class="Grid-cell">
+            <div class="c-panel">
+                <div class="c-panel__heading u-flex">
+                    <div class="l-tool-group">
+                        <a asp-action="Create" asp-controller="Admin" class="c-button c-button--primary c-button--panel-head" style="cursor:pointer; text-decoration:none;">Add New Admin</a>
+                    </div>
+                    <div class="l-tool-group u-grow u-justify-end">
+                        <form class="l-search-group" asp-action="SerachByName" asp-controller="Admin">
+                            <input class="c-search" name="Name" type="text" placeholder="Search" />
+                            <button type="submit" class="c-button c-button--panel-head c-button--search c-button--icon"><i class="material-icons">Search</i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="c-panel__body">
+                    <div class="l-scroll-section js-sticky-head">
+                        <table class="c-table">
+                            <thead>
+                                <tr>
+                                    <th class="c-table__header c-table__header-cell--10">Image</th>
+                                    <th class="c-table__header c-table__header-cell--5">ID</th>
+                                    <th class="c-table__header c-table__header-cell--20">Name</th>
+                                    <th class="c-table__header c-table__header-cell--25">Email</th>
+                                    <th class="c-table__header c-table__header-cell--5">Status</th>
+                                    <th class="c-table__header c-table__header-cell--11">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    foreach (var item in Model)
+                                    {
+
+                                        <tr class="c-table__row">
+                                            <td class="c-table__cell"><img loading="lazy" src="@item.ImageURL" style="width:40px; height:40px;" /></td>
+                                            <td class="c-table__cell">@item.ID</td>
+                                            <td class="c-table__cell">@item.Name</td>
+                                            <td class="c-table__cell">@item.Email</td>
+                                            @{
+                                                if (item.IsActive == true)
+                                                {
+                                                    <td class="c-table__cell">Active</td>
+                                                }
+                                                else
+                                                {
+                                                    <td class="c-table__cell">Not Active</td>
+                                                }
+                                            }
+                                            <td class="c-table__cell " style="font-size: 1rem;"> <a asp-action="Update" asp-controller="Admin" asp-route-id="@item.ID"><i class="fa-solid fa-pen-to-square" style="margin-left:10px;"></i></a>  <a asp-action="ConfirmThisAction" asp-controller="Admin" asp-route-id="@item.ID" asp-route-actionName="Active"><i class="fa-solid fa-person-circle-question" style="margin-left:10px;"></i>   </a>   <a asp-action="ConfirmThisAction" asp-controller="Admin" asp-route-id="@item.ID" asp-route-actionName="Delete"><i class="fa-solid fa-trash" style="margin-left:10px;"></i></a> </td>
+
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $(".alert").click(function () {
+            $(this).fadeOut();
+        });
+    });
+</script>
+
+
+
+

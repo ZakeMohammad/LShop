@@ -1,0 +1,93 @@
+﻿
+@model List<clsProduct>;
+
+
+
+<div class="container-fluid bg-secondary mb-5">
+    <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
+        <h1 class="font-weight-semi-bold text-uppercase mb-3">Our Shoop</h1>
+        <div class="d-inline-flex">
+            <p class="m-0"><a asp-action="Index" asp-controller="Home">Home</a></p>
+            <p class="m-0 px-2">-</p>
+            <p class="m-0">Shoop</p>
+            <p class="m-0 px-2">-</p>
+            @{
+                int GategoreID = Model[0].CategoryID;
+                if (GategoreID == 1)
+                {
+                    <p class="m-0">Accessories</p>
+                }
+                if (GategoreID == 2)
+                {
+                    <p class="m-0">Cosmetics</p>
+                }
+                if (GategoreID == 3)
+                {
+                    <p class="m-0">Clothes</p>
+
+                }
+                else if(GategoreID==4)
+                {
+                    <p class="m-0">Shoes</p>
+                }
+            }
+           
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid pt-5" style="display:flex;
+    justify-content:center;
+    align-items:center;">
+
+
+    <div class="col-lg-9 col-md-12">
+        <div class="row pb-3">
+            <div class="col-12 pb-1" style="width:100%">
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <form  asp-action="SerachByName" asp-controller="Product" style="width:100%;">
+                        <div class="input-group">
+                            <input type="text" name="Name" class="form-control" placeholder="Search by name">
+                            <input type="number" hidden value="@GategoreID" name="GategoryID" />
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+              
+                </div>
+            </div>
+
+            @{
+                foreach(var item in Model)
+                {
+                    <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                        <div class="card product-item border-0 mb-4">
+                            <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                                <img loading="lazy" class="img-fluid w-100" src="@item.ImageOne" style="height:200px" alt="">
+                            </div>
+                            <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                                <h6 class="text-truncate mb-3">@item.Name</h6>
+                                <div class="d-flex justify-content-center">
+                                    <h6>$@item.Price</h6><h6 class="text-muted ml-2"><del></del></h6>
+                                </div>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between bg-light border">
+                                <a asp-action="Detials" asp-controller="Home" asp-route-id="@item.ID" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+
+                                <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@item.ID" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+         
+
+        </div>
+    </div>
+  
+</div>
+

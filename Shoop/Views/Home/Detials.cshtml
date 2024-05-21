@@ -1,0 +1,263 @@
+﻿
+@model Shoop.ViewModel.ProductDetilsViewModel;
+
+<link href="~/css/allerts.css" rel="stylesheet" />
+<link href="~/css/adminfiles/slider.css" rel="stylesheet" />
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="col-sm-12">
+        <div class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show">
+
+            <i class="start-icon far fa-check-circle faa-tada animated"></i>
+            <strong class="font__weight-semibold">Well done!</strong> @TempData["SuccessMessage"]
+        </div>
+    </div>
+ 
+}
+@if(TempData["ErrorMessage"] != null)
+{
+    <div class="col-sm-12">
+        <div class="alert fade alert-simple alert-warning alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+
+            <i class="start-icon fa fa-exclamation-triangle faa-flash animated"></i>
+            <strong class="font__weight-semibold">Warning!</strong> @TempData["ErrorMessage"]
+        </div>
+    </div>
+}
+@if (TempData["ErrorMessageW"] != null)
+{
+
+    <div class="col-sm-12">
+        <div class="alert fade alert-simple alert-warning alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+
+            <i class="start-icon fa fa-exclamation-triangle faa-flash animated"></i>
+            <strong class="font__weight-semibold">Warning!</strong> @TempData["ErrorMessageW"]
+        </div>
+    </div>
+}
+@if (TempData["ErrorMessageI"] != null)
+{
+
+    <div class="col-sm-12">
+        <div class="alert fade alert-simple alert-info alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+
+            <i class="start-icon  fa fa-info-circle faa-shake animated"></i>
+            <strong class="font__weight-semibold">Heads up!</strong> @TempData["ErrorMessageI"]
+        </div>
+
+    </div>
+
+}
+
+<div class="container-fluid bg-secondary mb-5">
+    <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
+        <h1 class="font-weight-semi-bold text-uppercase mb-3">Product Detials</h1>
+        <div class="d-inline-flex">
+            <p class="m-0"><a asp-action="Index" asp-controller="Home">Home</a></p>
+            <p class="m-0 px-2">-</p>
+            <p class="m-0">Detials</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+   
+    <div class="row px-xl-5 mb-3">
+        <div class="col-lg-5 pb-5">         
+            <div id="product-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner border">
+                
+                    <div class="carousel-item active">
+                        <img loading="lazy" class="w-100" src="@Model.Product.ImageOne" alt="Image" style="height:300px;">
+                    </div>
+                    <div class="carousel-item ">
+                        <img loading="lazy" class="w-100" src="@Model.Product.ImageTwo" alt="Image" style="height:300px;">
+                    </div>
+                    <div class="carousel-item ">
+                        <img loading="lazy" class="w-100" src="@Model.Product.ImageThere" alt="Image" style="height:300px;">
+                    </div>
+                    <div class="carousel-item ">
+                        <img loading="lazy" class="w-100" src="@Model.Product.ImageFour" alt="Image" style="height:300px;">
+                    </div>
+                    <div class="carousel-item ">
+                        <img loading="lazy" class="w-100" src="@Model.Product.ImageFive" alt="Image" style="height:300px;">
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
+                    <i class="fa fa-2x fa-angle-left text-dark"></i>
+                </a>
+                <a class="carousel-control-next" href="#product-carousel" data-slide="next">
+                    <i class="fa fa-2x fa-angle-right text-dark"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-7 pb-5">
+            <h3 class="font-weight-semi-bold">@Model.Product.Name</h3>
+            <div class="d-flex mb-3">
+             
+                <div class="text-primary mr-2">
+                    @{
+                        for (int i = 0; i < Model.Product.Rating; i++)
+                        {
+                            <small class="fas fa-star"></small>
+                        }
+                    }                 
+                </div>
+              
+            </div>
+            <h3 class="font-weight-semi-bold mb-4">$@Model.Product.Price</h3>
+            <p class="mb-4">@Model.Product.Description</p>
+           
+            <div class="d-flex align-items-center mb-4 pt-2">
+        
+                <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@Model.Product.ID" class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i> Add To Cart</a>
+                <a asp-action="AddProductToFavorite" asp-controller="UserInteractions" asp-route-ProductID="@Model.Product.ID" class="btn btn-primary px-3" style="margin-left:20px;"><i class="fas fa-heart mr-1"></i> Add To Favorite</a>
+            </div>
+          
+        </div>
+    </div>
+
+    <div class="row px-xl-5">
+        <div class="col">
+            <div class="nav nav-tabs justify-content-center border-secondary mb-4">
+                <a class="nav-item nav-link" data-toggle="tab" href="#tab-pane-3" style="color:black">Show Reviews</a>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade" id="tab-pane-3">
+                    <div class="row">
+                        <div class="col-md-6">
+                       <h4 class="mb-4">@Model.AllReviews.Count review for @Model.Product.Name</h4>
+                            @{
+                                foreach(var item in Model.AllReviews)
+                                {
+                                    <div class="media mb-4">
+                                        <img loading="lazy" src="@item.UserImageURL" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+                                        <div class="media-body">
+                                            <h6>@item.Name<small> - <i>@item.Date.ToShortDateString()</i></small></h6>
+                                            <div class="text-primary mb-2">
+                                                @{
+                                                if (item.Rating < 2)
+                                                {
+                                                        <i class="fas fa-star"></i>
+                                                }
+                                                    if (item.Rating >= 2 && item.Rating < 3)
+                                                    {
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    }
+
+                                                    if (item.Rating >= 3 && item.Rating < 4)
+                                                    {
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    }
+                                                    if (item.Rating >= 4 && item.Rating < 5)
+                                                    {
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    }
+                                                    if(item.Rating >= 5)
+                                                    {
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star-half-alt"></i>
+                                                    }
+                                                }
+                                              
+                                            </div>
+                                            <p>@item.Review</p>
+                                        </div>
+                                    </div>
+
+                                }
+
+                            }
+                        </div>
+                        @{
+                            if (ApplicationUser.CurrentUser != null)
+                            {
+                                <div class="col-md-6">
+                                    <h4 class="mb-4">Leave a review</h4>
+                                    <small>Your email address will not be published. Required fields are marked *</small>
+                                    @using (Html.BeginForm("AddReview", "UserInteractions", FormMethod.Post, new { @class = "needs-validation", novalidate = "true", enctype = "multipart/form-data" }))
+                                    {
+                                    <div>
+                                        <div class="d-flex my-3">
+                                            <p class="mb-0 mr-2">Your Rating * :</p>
+                                            <div class="text-primary">
+                                              <input type="number" class="form-control" required min="1" max="5" value="1" asp-for="@Model.Review.Rating" />
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="message">Your Review *</label>
+                                                <textarea id="message" cols="30" rows="5" class="form-control" asp-for="@Model.Review.Review"></textarea>
+                                        </div>
+                                            <input hidden type="number" asp-for="@Model.Review.UserID" value="@ApplicationUser.CurrentUser.ID" />
+                                            <input hidden type="number" asp-for="@Model.Review.ProductID" value="@Model.Product.ID" />
+
+                                        <div class="form-group mb-0">
+                                            <input type="submit" value="Leave Your Review" class="btn btn-primary px-3">
+                                        </div>
+                                    </div>
+                                    }
+                                </div>
+                            }
+                        }
+                       
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    <div class="text-center mb-4">
+        <h2 class="section-title px-5"><span class="px-2">You May Also Like</span></h2>
+    </div>
+    <div class="row px-xl-5 pb-3">
+        @{
+
+            foreach (var item in Model.clsProducts)
+            {
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                    <div class="card product-item border-0 mb-4">
+                        <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                            <img loading="lazy"  class="img-fluid w-100" src="@item.ImageOne" style="height:200px" alt="">
+                        </div>
+                        <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                            <h6 class="text-truncate mb-3">@item.Name</h6>
+                            <div class="d-flex justify-content-center">
+                                <h6>$@item.Price</h6><h6 class="text-muted ml-2"><del></del></h6>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-light border">
+                            <a asp-action="Detials" asp-controller="Home" asp-route-id="@item.ID" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+
+                            <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@item.ID" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $(".alert").click(function () {
+            $(this).fadeOut();
+        });
+    });
+</script>     

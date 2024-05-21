@@ -1,0 +1,299 @@
+﻿
+<link href="~/css/allerts.css" rel="stylesheet" />
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="col-sm-12">
+        <div class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show">
+
+            <i class="start-icon far fa-check-circle faa-tada animated"></i>
+            <strong class="font__weight-semibold">Well done!</strong> @TempData["SuccessMessage"]
+        </div>
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="col-sm-12">
+        <div class="alert fade alert-simple alert-danger alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+
+            <i class="start-icon far fa-times-circle faa-pulse animated"></i>
+            <strong class="font__weight-semibold">Oh snap!</strong> @TempData["ErrorMessage"]
+        </div>
+    </div>
+}
+@if (TempData["ErrorMessageW"] != null)
+{
+
+    <div class="col-sm-12">
+        <div class="alert fade alert-simple alert-warning alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+
+            <i class="start-icon fa fa-exclamation-triangle faa-flash animated"></i>
+            <strong class="font__weight-semibold">Warning!</strong> @TempData["ErrorMessageW"]
+        </div>
+    </div>
+}
+@if (TempData["ErrorMessageI"] != null)
+{
+
+    <div class="col-sm-12">
+        <div class="alert fade alert-simple alert-info alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+
+            <i class="start-icon  fa fa-info-circle faa-shake animated"></i>
+            <strong class="font__weight-semibold">Heads up!</strong> @TempData["ErrorMessageI"]
+        </div>
+
+    </div>
+
+}
+<link href="~/css/commints.css" rel="stylesheet" />
+
+@model Shoop.ViewModel.HomeViewModel;
+
+    
+<div id="header-carousel" class="carousel slide" data-ride="carousel">          
+    <div class="carousel-inner">
+                       
+        @{
+            var counter = 0;
+            foreach (var offer in Model.AllOffers)
+            {
+                if (counter == 1)
+                {
+                    <div class="carousel-item active" style="height: 410px;">
+                        <img loading="lazy" class="img-fluid" src="@offer.Image" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h4 class="text-light text-uppercase font-weight-medium mb-3">@offer.OfferRatio% @offer.Detils</h4>
+                                <h3 class="display-4 text-white font-weight-semi-bold mb-4">@offer.Name</h3>
+                                <a href="#" class="btn btn-light py-2 px-3">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                <div class="carousel-item" style="height: 410px;">
+                    <img loading="lazy" class="img-fluid" src="@offer.Image" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 700px;">
+                            <h4 class="text-light text-uppercase font-weight-medium mb-3">@offer.OfferRatio% @offer.Detils</h4>
+                            <h3 class="display-4 text-white font-weight-semi-bold mb-4">@offer.Name</h3>
+                            <a href="#" class="btn btn-light py-2 px-3">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                counter++;
+            }
+        }
+
+    </div>
+
+    <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+        <div class="btn btn-dark" style="width: 45px; height: 45px;">
+            <span class="carousel-control-prev-icon mb-n2"></span>
+        </div>
+    </a>
+    <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+        <div class="btn btn-dark" style="width: 45px; height: 45px;">
+            <span class="carousel-control-next-icon mb-n2"></span>
+        </div>
+    </a>
+
+</div> 
+
+
+
+
+<div class="container-fluid pt-5">
+    <div class="row px-xl-5 pb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
+                <h5 class="font-weight-semi-bold m-0">Quality Product</h5>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
+                <h5 class="font-weight-semi-bold m-0">Fast Shipping</h5>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
+                <h5 class="font-weight-semi-bold m-0">14-Day Return</h5>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
+                <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
+            </div>
+        </div>
+ 
+    </div>
+</div>
+
+
+
+
+<div class="container-fluid pt-5">
+    <div class="text-center mb-4">
+        <h2 class="section-title px-5"><span class="px-2">Category</span></h2>
+    </div>
+    <div class="row px-xl-5 pb-3">
+        @{
+            int id = 0;
+            foreach(var item in Model.Gategores)
+            {
+                id++;
+                <div class="col-lg-4 col-md-6 pb-1">
+                    <div class="cat-item d-flex flex-column border mb-4" style="padding: 30px;">
+                        <p class="text-right">@item.NumberOfProduct Products</p>
+                        <a asp-controller="UserInteractions" asp-action="ShowAllProductForGategore" asp-route-id="@id" class="cat-img position-relative overflow-hidden mb-3 text-center">
+                            <img loading="lazy" class="@item.Image" src="@item.Image" style="height:200px;" alt="">
+                        </a>
+                        <h5 class="font-weight-semi-bold m-0">@item.GategoryName</h5>
+                    </div>
+                </div>
+            }
+        }
+
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5">
+        <div class="text-center mb-4">
+        <h2 class="section-title px-5"><span class="px-2">Trendy Products</span></h2>
+        </div>
+        <div class="row px-xl-5 pb-3">
+        @{
+           
+            foreach(var item in Model.TrandyProduct)
+            {
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                    <div class="card product-item border-0 mb-4">
+                        <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                            <img loading="lazy" class="img-fluid w-100" src="@item.ImageOne" style="height:200px" alt="">
+                        </div>
+                        <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                            <h6 class="text-truncate mb-3">@item.Name</h6>
+                            <div class="d-flex justify-content-center">
+                                <h6>$@item.Price</h6><h6 class="text-muted ml-2"><del></del></h6>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-light border">
+                            <a asp-action="Detials" asp-controller="Home" asp-route-id="@item.ID" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+
+                            <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@item.ID" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+          
+         
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid bg-secondary my-5">
+        <div class="row justify-content-md-center py-5 px-xl-5">
+            <div class="col-md-6 col-12 py-5">
+                <div class="text-center mb-2 pb-2">
+                <h2 class="section-title px-5 mb-3"><span class="bg-secondary px-2">Write feedback</span></h2>
+                    <p>Give us feedback for our shop.</p>
+                </div>
+            <form asp-action="AddNewMessege" asp-controller="HomeContent">
+                    <div class="input-group">
+                    <input type="text" name="Message" required class="form-control border-white p-4" placeholder="Feedback goes here">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-4">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid pt-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Just Arrived</span></h2>
+        </div>
+        <div class="row px-xl-5 pb-3">
+
+        @{
+            foreach(var item in Model.ArrivedProduct)
+            {
+                <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+                    <div class="card product-item border-0 mb-4">
+                        <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                            <img loading="lazy" class="img-fluid w-100" style="height:200px" src="@item.ImageOne" alt="">
+                        </div>
+                        <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                            <h6 class="text-truncate mb-3">@item.Name</h6>
+                            <div class="d-flex justify-content-center">
+                                <h6>$@item.Price</h6><h6 class="text-muted ml-2"><del></del></h6>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-light border">
+                            <a asp-action="Detials" asp-controller="Home" asp-route-id="@item.ID" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                            <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-id="@item.ID" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+          
+        </div>
+    </div>
+
+
+
+
+<div class="text-center mb-4">
+    <h2 class="section-title px-5"><span class="px-2">Top Feedbacks</span></h2>
+</div> 
+
+@{
+
+    foreach(var item in Model.AllCommints)
+    {
+      
+        
+        <div class="blog-card alt">
+            <div class="meta">
+                <div class="photo" style="background-image: url(@item.UserImageURL)"></div>
+                <ul class="details">
+                    <li class="author"><a href="#">@item.UserName</a></li>
+                    <li class="date">@item.Date.ToShortDateString()</li>            
+                </ul>
+            </div>
+            <div class="description">
+                <h1>@item.UserName</h1>
+                <p>@item.UserMessage</p>
+                <p class="read-more">
+                 
+                </p>
+            </div>
+        </div>
+
+    }
+}
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+
+    $(document).ready(function () {
+        $(".alert").click(function () {
+            $(this).fadeOut();
+        });
+    });
+ 
+</script>         

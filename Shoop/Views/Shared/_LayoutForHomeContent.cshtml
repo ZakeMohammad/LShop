@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+   
+
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="~/bootstrap/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-grid.rtl.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-grid.rtl.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-reboot.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-reboot.rtl.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-reboot.rtl.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-reboot.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-utilities.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-utilities.rtl.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-utilities.rtl.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-utilities.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+ 
+    <title>Home Content</title>
+    <link href="~/css/allerts.css" rel="stylesheet" />
+ 
+
+<style>
+        .responsive__tabs {
+            ul
+
+        {
+            &.scrollable-tabs
+
+        {
+            background-color: #333;
+            overflow-x: auto;
+            white-space: nowrap;
+            display: flex;
+            text-transform: uppercase;
+            flex-direction: row;
+            li
+
+        {
+            list-style-type: none;
+            & a
+
+        {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            &:hover, &.active
+
+        {
+            background-color: #777;
+        }
+
+        }
+        }
+        }
+        }
+        }
+    </style>
+</head>
+<body>
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="col-sm-12">
+            <div class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show">
+
+                <i class="start-icon far fa-check-circle faa-tada animated"></i>
+                <strong class="font__weight-semibold">Well done!</strong> @TempData["SuccessMessage"]
+            </div>
+        </div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="col-sm-12">
+            <div class="alert fade alert-simple alert-danger alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show" role="alert" data-brk-library="component__alert">
+
+                <i class="start-icon far fa-times-circle faa-pulse animated"></i>
+                <strong class="font__weight-semibold">Oh snap!</strong> @TempData["ErrorMessage"]
+            </div>
+        </div>
+    }
+
+    <div class="responsive__tabs">
+     
+        <ul class="scrollable-tabs">
+           
+         
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" asp-action="OffierAndNews" asp-controller="HomeContent">Offier</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" asp-action="ManegeGategory" asp-controller="HomeContent">Gategore</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" asp-action="AllMessegesAdmin" asp-controller="HomeContent">Commints</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" asp-action="AllReview" asp-controller="HomeContent">Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" asp-action="AllContactMessages" asp-controller="HomeContent">Contact Messegaes</a>
+            </li>
+            <li class="nav-item" style="background-color:red">
+                <a class="nav-link" data-toggle="tab" asp-action="Index" asp-controller="Admin">Exit</a>
+            </li>
+        </ul>
+
+      
+        <div class="tab-content">
+            <div class="container">
+            @RenderBody();
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
